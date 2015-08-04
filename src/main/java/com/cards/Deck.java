@@ -19,6 +19,10 @@ public final class Deck {
         this.cards = NewDeck();
     }
 
+    /**
+     * Draws one card from the deck
+     * @return returns a card, if no cards are left, it returns a null card.
+     */
     public Card DrawCard(){
 
         if(deckPlace == null)
@@ -32,16 +36,27 @@ public final class Deck {
             return null;
     }
 
+    /**
+     * Shuffles the deck.
+     */
     public void ShuffleDeck(){
         deckPlace = null;
         long seed = System.nanoTime();
         Collections.shuffle(cards, new Random(seed));
     }
 
+    /**
+     * Returns the number of remaining cards
+     * @return number of cards left in the deck
+     */
     public int RemainingCards(){
         return cards.size();
     }
 
+    /**
+     * Initializes a new deck
+     * @return returns a linked list of cards
+     */
     private static List<Card> NewDeck(){
         initializeDeck();
         List<Card> cards = new LinkedList();
@@ -54,6 +69,9 @@ public final class Deck {
         return cards;
     }
 
+    /**
+     * creates list of faces and suites
+     */
     private static void initializeDeck(){
         suit = new ArrayList();
         face = new ArrayList();

@@ -1,4 +1,4 @@
-package com.cards;
+package main.java.com.cards;
 
 /**
  * Created by scipio on 7/31/15.

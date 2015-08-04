@@ -1,9 +1,12 @@
 package com.cards;
 
+import main.java.com.cards.IFace;
+import main.java.com.cards.ISuit;
+
 /**
  * Created by scipio on 8/2/15.
  */
-public class Card implements IFace, ISuit{
+public class Card implements IFace, ISuit {
 
     private String face;
     private String suit;
