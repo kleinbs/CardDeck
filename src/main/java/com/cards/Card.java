@@ -9,11 +9,11 @@ public class Card implements IFace, ISuit {
     private String suit;
 
     public String getFace() {
-        return null;
+        return this.face;
     }
 
     public String getSuit() {
-        return null;
+        return this.suit;
     }
 
     public Card(CardBuilder cardBuilder){
