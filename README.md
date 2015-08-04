@@ -7,7 +7,7 @@ This is a library that creates a deck of 52 cards. To initalize a deck, simply i
 Deck deck = new Deck();
 ```
 
-This will initalize a deck. The deck starts out ordered by suits in the following order; *HEARTS, DIAMONDS, SPADES, CLUBS*, and faces ordered from from ACE to KING. The deck can be randomized the follwoing way.
+This will initalize a deck. The deck starts out ordered by suits in the following order; *HEARTS, DIAMONDS, SPADES, CLUBS*, and faces ordered from ACE to KING. The deck can be randomized the follwoing way.
 ```
 deck.ShuffleDeck();
 ```
