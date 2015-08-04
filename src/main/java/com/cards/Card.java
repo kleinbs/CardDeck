@@ -1,8 +1,5 @@
 package com.cards;
 
-import main.java.com.cards.IFace;
-import main.java.com.cards.ISuit;
-
 /**
  * Created by scipio on 8/2/15.
  */
